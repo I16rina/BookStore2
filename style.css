@@ -1,0 +1,342 @@
+@import url(reset.css);
+.header {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(3, auto);
+  position: fixed;
+  z-index: 10;
+  background-color: #FFF;
+  margin: 0px;
+  padding: 0px 158px 0px 166px;
+  width: 1440px;
+  height: 116px;
+}
+
+.header-logo {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #1C2A39;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-nav-ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 12px;
+  justify-content: space-between;
+  width: 372px;
+}
+
+.header-nav-a {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #5C6A79;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-nav-a-active {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #1C2A39;
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-div {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  margin-top: 9px;
+  width: 134px;
+}
+
+.header-div-img {
+  width: 17px;
+  height: 17px;
+}
+
+.header-svg {
+  margin-top: 9px;
+  margin-left: -13px;
+}
+
+.header-svg-count {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 12.3px;
+  margin-top: -16px;
+}
+
+.main {
+  width: 1440px;
+  padding-left: 166px;
+  padding-top: 120px;
+}
+
+.main-div {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-rows: 730px 15px;
+  justify-items: center;
+}
+
+.main-div-slider {
+  overflow: hidden;
+  width: 1110px;
+}
+
+.main-div-slider-line {
+  display: flex;
+  transition: all 1s;
+}
+
+.main-img {
+  width: 1120px;
+}
+
+.main-dot {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.main-dot-active {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 528px;
+  margin-top: -14px;
+  width: 12px;
+}
+
+.main-div-dots {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(3, auto);
+  width: 56px;
+}
+
+.main-div-blok-one {
+  width: 149px;
+  height: 204px;
+  background: #9E98DC;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 102px;
+  margin-left: 1060px;
+  margin-top: -600px;
+  position: relative;
+}
+
+.main-div-a {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+  color: #1C2A39;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 109px;
+}
+
+.main-div-blok-two {
+  background: #FF8FE6;
+  width: 137px;
+  height: 237px;
+  padding-top: 149px;
+  padding-left: 21px;
+  padding-right: 47px;
+  margin-top: 100px;
+  margin-left: 1137px;
+}
+
+.section {
+  width: 1440px;
+  margin-top: 150px;
+  margin-left: -166px;
+}
+
+.section-nav {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 15px 150px;
+  padding-left: 100px;
+  padding-right: 190px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 416px;
+  height: 710px;
+  background: #EFEEF6;
+}
+
+.section-div-svg {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(1, 15px);
+  grid-template-rows: repeat(16, 35px);
+  width: 15px;
+}
+
+.section-div-nav {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-rows: repeat(16, 35px);
+  grid-auto-flow: column;
+}
+
+.section-nav-a {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #5C6A79;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.active {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #1C2A39;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.section-books {
+  margin-top: -640px;
+  margin-left: 356px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(2, 499px);
+  grid-template-rows: repeat(3, 380px);
+  width: 920px;
+}
+
+.books {
+  margin-top: -170px;
+  margin-left: 4px;
+  width: 405px;
+}
+
+.div-cover {
+  width: 212px;
+  height: 307px;
+  background-color: #4C3DB2;
+}
+
+.div-autor {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #5C6A79;
+  font-family: Open Sans;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-left: 240px;
+  margin-top: 0px;
+  margin-top: -300px;
+}
+
+.div-name {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #1C2A39;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 240px;
+  margin-top: 4px;
+}
+
+.div-reiting {
+  margin-left: 240px;
+  margin-top: 5px;
+}
+
+.div-description {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #5C6A79;
+  font-family: Open Sans;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-left: 240px;
+  margin-top: 16px;
+}
+
+.div-price {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #1C2A39;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 240px;
+  margin-top: 16px;
+}
+
+.button {
+  width: 176px;
+  height: 45px;
+  flex-shrink: 0;
+  border: 1px solid #4C3DB2;
+  width: 176px;
+  height: 45px;
+  margin-left: 240px;
+  margin-top: 16px;
+}
+
+.button-p {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #4C3DB2;
+  font-size: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button-load {
+  margin-left: 702px;
+  margin-top: 102px;
+  margin-bottom: 100px;
+}
+
+.secondDot {
+  position: absolute;
+  margin-left: 550px;
+  margin-top: -14px;
+  width: 12px;
+}
+
+.button-p-buy {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

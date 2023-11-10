@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Книжный интернет-магазин</title>
+</head>
+<body>
+
+    <header class="header">
+        <p class="header-logo">Bookshop</p>
+        <nav class="nav">
+            <ul class="header-nav-ul">
+                <li><a href="#" class="header-nav-a header-nav-a-active">books</a></li>
+                <li><a href="#" class="header-nav-a">audiobooks</a></li>
+                <li><a href="#" class="header-nav-a">Stationery & gifts</a></li>
+                <li><a href="#" class="header-nav-a">blog</a></li>
+            </ul>
+        </nav>
+        <div class="header-div">
+            <a href="#"><img src="img/user.svg" class="header-div-img" alt="ikon user"></a>
+            <a href="#"><img src="img/search.svg" class="header-div-img" alt="ikon search"></a>
+            <div>
+                <a href="#"><img src="img/shopping.svg" class="header-div-img" alt="ikon shopping"></a>
+                <svg class="header-svg" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                    <circle cx="6.5" cy="6.5" r="6.5" fill="#FF353A"/>
+                </svg>
+                <p class="header-svg-count">0</p>
+            </div>                
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-div main-div-slider">
+            <div class="main-div-slider-line">
+                <img class="main-img main-img-slider main-img-first-banner" src="img/banner1.jpg" alt="banner">
+                <img class="main-img main-img-slider main-img-second-banner" src="img/banner2.jpg" alt="banner">
+                <img class="main-img main-img-slider main-img-third-banner" src="img/banner3.jpg" alt="banner">
+            </div>
+            <div class="main-div-dots">
+                <img class="main-dot main-slider-dot dot-first-banner" src="img/dot.svg">
+                <img class="main-dot main-slider-dot dot-second-banner" src="img/dot.svg">
+                <img class="main-dot main-slider-dot dot-third-banner" src="img/dot.svg">
+            </div>
+        </div>
+
+        <img class="main-dot main-slider-dot main-dot-active dot-first-banner" src="img/dot_active.svg">
+
+        <div class="main-div-blok-one">
+            <a href="#" class="main-div-a">Change old book on new</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="57" height="14" viewBox="0 0 57 14" fill="none">
+                <path d="M0 7H54" stroke="#1C2A39" stroke-width="2"/>
+                <path d="M48 1L55 7L48 13" stroke="#1C2A39" stroke-width="2"/>
+            </svg>
+        </div>
+
+        <div class="main-div-blok-two">
+            <a href="#" class="main-div-a">top 100 books 2022</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="57" height="14" viewBox="0 0 57 14" fill="none">
+                <path d="M0 7H54" stroke="#1C2A39" stroke-width="2"/>
+                <path d="M48 1L55 7L48 13" stroke="#1C2A39" stroke-width="2"/>
+            </svg>
+        </div>
+
+        <section class="section">
+            <div class="section-nav">
+                <div class="section-div-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                        <circle cx="3" cy="3" r="3" fill="#756AD3"/>
+                    </svg>
+                </div>
+                <div class="section-div-nav">
+                    <a href="#" class="section-nav-a active bookArchitecture" onclick="return false">Architecture</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Art & Fashion</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Biography</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Business</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Crafts & Hobbies</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Drama</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Fiction</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Food & Drink</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Health & Wellbeing</a>
+                    <a href="#" class="section-nav-a" onclick="return false">History & Politics</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Humor</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Poetry</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Psychology</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Science</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Technology</a>
+                    <a href="#" class="section-nav-a" onclick="return false">Travel & Maps</a>
+                </div>
+            </div>
+
+            <div class="section-books">
+                <div class="books">
+                    <div class="div-cover"></div>
+                    <p class="div-autor">Автор</p>
+                    <p class="div-name">Название</p>
+                    <div class="div-reiting">Рейтинг</div>
+                    <p class="div-description">Описание</p>
+                    <p class="div-price">Цена</p>
+
+                    <button class="button button_buy">
+                        <p class="button-p">buy now</p>
+                        <p class="button-p-buy">in the cart</p>
+                    </button>
+                </div>
+
+            <!-- <button class="button button-load">
+                <p class="button-p">Load more</p>
+            </button> -->
+        </section>
+    </main>
+
+    <script src="sliderJS.js"></script>
+    <script src="KategoryJS.js"></script>
+    <script src="BooksJS.js"></script>
+</body>
+</html>
